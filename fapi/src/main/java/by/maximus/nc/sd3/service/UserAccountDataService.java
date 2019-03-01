@@ -1,6 +1,6 @@
-package by.training.nc.sd3.service;
+package by.maximus.nc.sd3.service;
 
-import by.training.nc.sd3.models.UserAccountViewModel;
+import by.maximus.nc.sd3.models.UserAccountViewModel;
 
 public interface UserAccountDataService {
     UserAccountViewModel getUserAccountById(Long id);

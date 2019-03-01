@@ -1,7 +1,7 @@
 package by.maximus.nc.sd3.controller;
 
-import by.training.nc.sd3.models.BillingAccountViewModel;
-import by.training.nc.sd3.service.BillingAccountDataService;
+import by.maximus.nc.sd3.models.BillingAccountViewModel;
+import by.maximus.nc.sd3.service.BillingAccountDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

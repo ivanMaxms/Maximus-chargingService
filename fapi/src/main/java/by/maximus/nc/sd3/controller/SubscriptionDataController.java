@@ -1,7 +1,7 @@
 package by.maximus.nc.sd3.controller;
 
-import by.training.nc.sd3.models.SubscriptionViewModel;
-import by.training.nc.sd3.service.SubscriptionDataService;
+import by.maximus.nc.sd3.models.SubscriptionViewModel;
+import by.maximus.nc.sd3.service.SubscriptionDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -33,20 +33,5 @@ public class SubscriptionDataController {
     @RequestMapping(value = "/get-by-category", method = RequestMethod.GET)
     public ResponseEntity<List<SubscriptionViewModel>> getSubscriptionByCategory(@RequestParam String category) {
         return ResponseEntity.ok(subscriptionDataService.getSubscriptionByCategory(category));
-    }
-
-    @PostMapping(value = "/save")
-    public ResponseEntity<SubscriptionViewModel> save(@RequestBody SubscriptionViewModel subscriptionViewModel) {
-        return ResponseEntity.ok(subscriptionDataService.save(subscriptionViewModel));
-    }
-
-    @PostMapping(value = "/ban")
-    public ResponseEntity<SubscriptionViewModel> ban(@RequestParam Long id) {
-        return ResponseEntity.ok(subscriptionDataService.ban(id));
-    }
-
-    @PostMapping(value = "/unban")
-    public ResponseEntity<SubscriptionViewModel> unBan(@RequestParam Long id) {
-        return ResponseEntity.ok(subscriptionDataService.unBan(id));
     }
 }

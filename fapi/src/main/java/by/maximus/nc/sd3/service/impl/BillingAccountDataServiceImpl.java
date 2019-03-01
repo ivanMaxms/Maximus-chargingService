@@ -1,7 +1,7 @@
-package by.training.nc.sd3.service.impl;
+package by.maximus.nc.sd3.service.impl;
 
-import by.training.nc.sd3.models.BillingAccountViewModel;
-import by.training.nc.sd3.service.BillingAccountDataService;
+import by.maximus.nc.sd3.models.BillingAccountViewModel;
+import by.maximus.nc.sd3.service.BillingAccountDataService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

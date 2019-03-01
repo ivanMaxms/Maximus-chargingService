@@ -1,6 +1,6 @@
-package by.training.nc.sd3.service;
+package by.maximus.nc.sd3.service;
 
-import by.training.nc.sd3.models.BillingAccountViewModel;
+import by.maximus.nc.sd3.models.BillingAccountViewModel;
 
 import java.util.List;
 

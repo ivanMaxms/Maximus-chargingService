@@ -1,7 +1,7 @@
 package by.maximus.nc.sd3.controller;
 
-import by.training.nc.sd3.models.SubscriptionUnitViewModel;
-import by.training.nc.sd3.service.SubscriptionUnitDataService;
+import by.maximus.nc.sd3.models.SubscriptionUnitViewModel;
+import by.maximus.nc.sd3.service.SubscriptionUnitDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;

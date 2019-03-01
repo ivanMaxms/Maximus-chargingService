@@ -1,8 +1,8 @@
-package by.training.nc.sd3.service.impl;
+package by.maximus.nc.sd3.service.impl;
 
-import by.training.nc.sd3.models.Categories;
-import by.training.nc.sd3.models.SubscriptionViewModel;
-import by.training.nc.sd3.service.SubscriptionDataService;
+import by.maximus.nc.sd3.models.Categories;
+import by.maximus.nc.sd3.models.SubscriptionViewModel;
+import by.maximus.nc.sd3.service.SubscriptionDataService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -41,13 +41,5 @@ public class SubscriptionDataServiceImpl implements SubscriptionDataService {
         RestTemplate restTemplate = new RestTemplate();
         return restTemplate.getForObject(backendServerUrl + "/api/subscriptions/by-name?name={name}",
                 SubscriptionViewModel.class, name);
-    }
-
-    @Override
-    public SubscriptionViewModel save(SubscriptionViewModel subscriptionViewModel) {
-        RestTemplate restTemplate = new RestTemplate();
-        SubscriptionViewModel subscription = restTemplate.postForObject(backendServerUrl + "/api/subscriptions/save",
-                subscriptionViewModel, SubscriptionViewModel.class);
-        return subscription;
     }
 }

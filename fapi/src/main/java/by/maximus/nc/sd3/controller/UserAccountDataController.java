@@ -1,8 +1,8 @@
 package by.maximus.nc.sd3.controller;
 
-import by.training.nc.sd3.models.BillingAccountViewModel;
-import by.training.nc.sd3.models.UserAccountViewModel;
-import by.training.nc.sd3.service.UserAccountDataService;
+import by.maximus.nc.sd3.models.BillingAccountViewModel;
+import by.maximus.nc.sd3.models.UserAccountViewModel;
+import by.maximus.nc.sd3.service.UserAccountDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -46,7 +46,7 @@ public class UserAccountDataController {
         return null;
     }
 
-   @PostMapping(value = "change-BillingAccount")
+   @PostMapping(value = "/change-BillingAccount")
     public ResponseEntity<UserAccountViewModel> changeActiveBillingAccount(@RequestBody UserAccountViewModel userAccountViewModel,
                                                                            @RequestParam Long billingAccountId) {
         return ResponseEntity.ok(userAccountDataService.changeActiveBillingAccount(userAccountViewModel, billingAccountId));

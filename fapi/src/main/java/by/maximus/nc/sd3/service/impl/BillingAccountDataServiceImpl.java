@@ -24,4 +24,10 @@ public class BillingAccountDataServiceImpl implements BillingAccountDataService 
         return billingAccount;
     }
 
+    public BillingAccountViewModel saveBillingAccount(BillingAccountViewModel account) {
+        RestTemplate restTemplate = new RestTemplate();
+        BillingAccountViewModel billingAccount = restTemplate.postForObject(backendServerUrl + "/api/billing-accounts/save",
+                account, BillingAccountViewModel.class);
+        return billingAccount;
+    }
 }

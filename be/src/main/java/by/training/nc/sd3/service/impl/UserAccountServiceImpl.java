@@ -47,32 +47,4 @@ public class UserAccountServiceImpl implements UserAccountService {
         return ua;
     }
 
-    @Override
-    public UserAccount ban(UserAccount userAccount) {
-        userAccount.setIsBanned(true);
-        return this.userAccountRepository.save(userAccount);
-    }
-
-    @Override
-    public UserAccount unBan(UserAccount userAccount) {
-        userAccount.setIsBanned(false);
-        return this.userAccountRepository.save(userAccount);
-    }
-
-    @Override
-    public Iterable<UserAccount> getAll() {
-        return this.userAccountRepository.findAll();
-    }
-
-    @Override
-    public UserAccount changeActiveBillingAccount(UserAccount userAccount, Long billingAccountId) {
-        userAccount.setActiveBillingAccountId(billingAccountId);
-        return this.userAccountRepository.save(userAccount);
-    }
-
-    @Override
-    public Integer getSubscriptionsQuantity(Long id) {
-        return this.subscriptionUnitRepository.countByUserId(id);
-    }
-
 }

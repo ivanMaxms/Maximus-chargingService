@@ -47,4 +47,8 @@ public class UserAccountServiceImpl implements UserAccountService {
         return ua;
     }
 
+    @Override
+    public Iterable<UserAccount> getAll() {
+        return this.userAccountRepository.findAll();
+    }
 }

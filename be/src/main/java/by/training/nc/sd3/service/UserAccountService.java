@@ -8,4 +8,5 @@ public interface UserAccountService {
     Optional<UserAccount> getUserAccount(String name, String password);
     Optional<UserAccount> getUserAccountById(Long id);
     UserAccount save(UserAccount userAccount);
+    Iterable<UserAccount> getAll();
 }

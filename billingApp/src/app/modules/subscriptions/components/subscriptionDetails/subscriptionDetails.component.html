@@ -1,0 +1,67 @@
+<div *ngIf="(user !== undefined || id < 0) && subscription !==undefined">
+  <div class="row">
+
+    <div class="col"></div>
+
+    <div class="col-10">
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h1>{{subscription.name}}</h1>
+          <p class="lead">{{subscription.description}}</p>
+          <table class="table">
+            <thead>
+            <tr>
+              <th scope="col">Period</th>
+              <th scope="col">Sum</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>Month</td>
+              <td>{{subscription.perMonth + "$"}}</td>
+            </tr>
+            <tr>
+              <td>3 months</td>
+              <td>{{subscription.perThreeMonths + "$"}}</td>
+            </tr>
+            <tr>
+              <td>1 year</td>
+              <td>{{subscription.perYear + "$"}}</td>
+            </tr>
+            </tbody>
+          </table>
+          <select #periodSelect class="form-control">
+            <option>1 month</option>
+            <option>3 months</option>
+            <option>1 year</option>
+          </select>
+          <p></p>
+          <div *ngIf="id > -1">
+            <div *ngIf="!subscription.isBanned">
+              <button *ngIf="!user.isAdmin && !isSubscribed && !user.isBanned" type="submit" class="btn btn-success"
+                      (click)="periodDecision(periodSelect)"
+                      routerLink="../profileDetails">Subscribe
+              </button>
+              <button *ngIf="!user.isAdmin && isSubscribed && !user.isBanned" type="submit" class="btn btn-danger"
+                      (click)="unsubscribe()"
+                      routerLink="../profileDetails">Unsubscribe
+              </button>
+              <p *ngIf="user.isBanned && !user.isAdmin" class="text-danger">It seems your account is banned.</p>
+            </div>
+            <p *ngIf="!user.isAdmin && subscription.isBanned" class="text-danger">Service is temporarily
+              unavailable.</p>
+            <button *ngIf="user.isAdmin && !subscription.isBanned" type="submit" class="btn btn-danger"
+                    (click)="ban()">Ban
+            </button>
+            <button *ngIf="user.isAdmin && subscription.isBanned" type="submit" class="btn btn-success"
+                    (click)="unBan()">Unban
+            </button>
+          </div>
+          <p *ngIf="notEnoughMoney" class="text-danger">Failed, please check your billing account settings.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col"></div>
+  </div>
+</div>

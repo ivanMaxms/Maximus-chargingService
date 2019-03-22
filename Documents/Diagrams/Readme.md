@@ -1,2 +1,2 @@
 # UML Диаграммы
-1. [Диаграмма развертывания](https://github.com/vanosss/AudioscrobblerLastFm/blob/master/Documents/Diagrams/UseCase.md)
+1. [Диаграмма развертывания](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Diagrams/deployment.md)

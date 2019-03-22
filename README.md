@@ -1,4 +1,4 @@
 # Maximus-chargingService
 Charging service
 
-### UML диаграммы: ([Открыть](https://github.com/vanosss/AudioscrobblerLastFm/blob/master/Documents/Diagrams/Readme.md))
+### UML диаграммы: ([Открыть](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Diagrams/Readme.md))

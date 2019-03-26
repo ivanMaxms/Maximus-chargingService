@@ -1,13 +1,13 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-import {SubscriptionService} from "../../../../services/subscription/subscription.service";
 import {toNumber} from "ngx-bootstrap/timepicker/timepicker.utils";
-import {Subscription} from "../../../../shared/Subscription";
-import {UserIDService} from "../../../../services/userID.service";
-import {SubscriptionUnitService} from "../../../../services/subscriptionUnit/subscriptionUnit.service";
-import {SubscriptionUnit} from "../../../../shared/SubscriptionUnit";
-import {UserService} from "../../../../services/user/user.service";
-import {User} from "../../../../shared/User";
+import {Subscription} from "../../../../../shared/Subscription";
+import {User} from "../../../../../shared/User";
+import {SubscriptionService} from "../../../../../services/subscription/subscription.service";
+import {UserIDService} from "../../../../../services/userID.service";
+import {SubscriptionUnitService} from "../../../../../services/subscriptionUnit/subscriptionUnit.service";
+import {UserService} from "../../../../../services/user/user.service";
+import {SubscriptionUnit} from "../../../../../shared/SubscriptionUnit";
 
 @Component({
   selector: 'subscriptionsDetails',

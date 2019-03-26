@@ -1,12 +1,11 @@
 import {Component} from '@angular/core';
-import {User} from '../../../../shared/User';
-import {HttpService} from '../../../../services/http.service';
-import {BillingAccount} from '../../../../shared/BillingAccount';
-import {UserService} from "../../../../services/user/user.service";
-import {BillingAccountService} from "../../../../services/billingAccount/billingAccount.service";
 import {Observable} from "rxjs";
-import {UserIDService} from "../../../../services/userID.service";
 import {Router} from "@angular/router";
+import {User} from "../../../../../shared/User";
+import {BillingAccount} from "../../../../../shared/BillingAccount";
+import {UserService} from "../../../../../services/user/user.service";
+import {BillingAccountService} from "../../../../../services/billingAccount/billingAccount.service";
+import {UserIDService} from "../../../../../services/userID.service";
 
 @Component({
   selector: 'registration',

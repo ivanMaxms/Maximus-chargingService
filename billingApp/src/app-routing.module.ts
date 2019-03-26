@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { SubscriptionsListComponent } from './modules/subscriptions/components/subscriptionsList/subscriptionsList.component';
-import {SubscriptionDetailsComponent} from './modules/subscriptions/components/subscriptionDetails/subscriptionDetails.component';
-import {RegistrationComponent} from './modules/subscriptions/components/registration/registration.component';
+import {SubscriptionsListComponent} from "./app/modules/subscriptions/components/subscriptionsList/subscriptionsList.component";
+import {SubscriptionDetailsComponent} from "./app/modules/subscriptions/components/subscriptionDetails/subscriptionDetails.component";
+import {RegistrationComponent} from "./app/modules/subscriptions/components/registration/registration.component";
 
 const routes: Routes = [
   { path: 'subscriptions', component: SubscriptionsListComponent },

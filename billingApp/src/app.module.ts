@@ -4,7 +4,6 @@ import {NgModule} from '@angular/core';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {FormsModule} from '@angular/forms';
-import {SubscriptionsModule} from './modules/subscriptions/subscriptions.module';
 import {HttpClientModule} from '@angular/common/http';
 import {HttpService} from './services/http.service';
 import {SubscriptionsShareService} from './services/subscriptionsShare.service';
@@ -13,6 +12,7 @@ import {SubscriptionService} from './services/subscription/subscription.service'
 import {UserService} from "./services/user/user.service";
 import {SubscriptionUnitService} from "./services/subscriptionUnit/subscriptionUnit.service";
 import {BillingAccountService} from "./services/billingAccount/billingAccount.service";
+import {SubscriptionsModule} from "./app/modules/subscriptions/subscriptions.module";
 
 @NgModule({
   declarations: [

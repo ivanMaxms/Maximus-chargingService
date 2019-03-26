@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {Subscription} from '../../../../shared/Subscription';
-import {SubscriptionsShareService} from "../../../../services/subscriptionsShare.service";
-import {UserIDService} from "../../../../services/userID.service";
-import {UserService} from "../../../../services/user/user.service";
+import {Subscription} from "../../../../../shared/Subscription";
+import {SubscriptionsShareService} from "../../../../../services/subscriptionsShare.service";
+import {UserIDService} from "../../../../../services/userID.service";
+import {UserService} from "../../../../../services/user/user.service";
 
 @Component({
   selector: 'subscriptionsList',

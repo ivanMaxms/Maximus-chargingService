@@ -1,4 +1,5 @@
 # Maximus-chargingService
 Charging service
 
-### UML диаграммы: ([Открыть](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Diagrams/Readme.md))
+### [UML diagrams](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Diagrams/Readme.md)
+### [Architecture analysis](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Architecture.md)

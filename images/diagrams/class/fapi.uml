@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="1577.0">by.maximus.nc.sd3.controller.UserAccountDataController</node>
+    <node x="921.405" y="791.0">by.maximus.nc.sd3.service.impl.SubscriptionDataServiceImpl</node>
+    <node x="1433.0" y="1300.0">by.maximus.nc.sd3.service.BillingAccountDataService</node>
+    <node x="1553.0" y="1829.0">by.maximus.nc.sd3.service.FapiApplication</node>
+    <node x="1185.0" y="1401.0">by.maximus.nc.sd3.service.impl.BillingAccountDataServiceImpl</node>
+    <node x="385.0" y="977.0">by.maximus.nc.sd3.models.UserAccountViewModel</node>
+    <node x="1432.0" y="977.0">by.maximus.nc.sd3.models.BillingAccountViewModel</node>
+    <node x="1005.4675" y="0.0">by.maximus.nc.sd3.models.Categories</node>
+    <node x="628.0" y="1577.0">by.maximus.nc.sd3.service.impl.UserAccountDataServiceImpl</node>
+    <node x="1133.0" y="1829.0">by.maximus.nc.sd3.filter.CorsFilter</node>
+    <node x="716.735" y="512.0">by.maximus.nc.sd3.models.SubscriptionUnitViewModel</node>
+    <node x="476.0" y="1908.0">by.maximus.nc.sd3.service.impl.SubscriptionUnitDataServiceImpl</node>
+    <node x="646.0" y="1829.0">by.maximus.nc.sd3.service.SubscriptionUnitDataService</node>
+    <node x="350.0" y="1365.0">by.maximus.nc.sd3.service.UserAccountDataService</node>
+    <node x="718.0" y="1908.0">by.maximus.nc.sd3.controller.SubscriptionUnitDataController</node>
+    <node x="0.0" y="791.0">by.maximus.nc.sd3.controller.SubscriptionDataController</node>
+    <node x="636.0" y="189.0">by.maximus.nc.sd3.models.SubscriptionViewModel</node>
+    <node x="282.735" y="567.5">by.maximus.nc.sd3.service.SubscriptionDataService</node>
+    <node x="1657.0" y="1412.0">by.maximus.nc.sd3.controller.BillingAccountDataController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="by.maximus.nc.sd3.service.BillingAccountDataService" target="by.maximus.nc.sd3.models.BillingAccountViewModel">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.controller.SubscriptionDataController" target="by.maximus.nc.sd3.service.SubscriptionDataService">
+      <point x="127.5" y="-70.5" />
+      <point x="382.5" y="771.0" />
+      <point x="386.235" y="771.0" />
+      <point x="-103.5" y="59.0" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.controller.BillingAccountDataController" target="by.maximus.nc.sd3.models.BillingAccountViewModel">
+      <point x="137.0" y="-37.0" />
+      <point x="2068.0" y="1376.0" />
+      <point x="1988.75" y="1376.0" />
+      <point x="1988.75" y="1275.0" />
+      <point x="1810.3333333333335" y="1275.0" />
+      <point x="151.33333333333348" y="136.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.controller.SubscriptionUnitDataController" target="by.maximus.nc.sd3.service.SubscriptionUnitDataService">
+      <point x="0.0" y="-25.5" />
+      <point x="903.0" y="1883.0" />
+      <point x="794.5" y="1883.0" />
+      <point x="49.5" y="14.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.controller.UserAccountDataController" target="by.maximus.nc.sd3.models.UserAccountViewModel">
+      <point x="-152.0" y="-103.5" />
+      <point x="152.0" y="1552.0" />
+      <point x="238.75" y="1552.0" />
+      <point x="238.75" y="1340.0" />
+      <point x="458.66666666666663" y="1340.0" />
+      <point x="-147.33333333333337" y="169.0" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.service.impl.SubscriptionDataServiceImpl" target="by.maximus.nc.sd3.models.Categories">
+      <point x="138.0" y="-70.5" />
+      <point x="1266.405" y="771.0" />
+      <point x="1273.2350000000001" y="771.0" />
+      <point x="1273.2350000000001" y="164.0" />
+      <point x="1086.4675" y="164.0" />
+      <point x="27.0" y="69.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.controller.UserAccountDataController" target="by.maximus.nc.sd3.service.UserAccountDataService">
+      <point x="152.0" y="-103.5" />
+      <point x="456.0" y="1552.0" />
+      <point x="478.0" y="1552.0" />
+      <point x="-128.0" y="81.0" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.service.impl.BillingAccountDataServiceImpl" target="by.maximus.nc.sd3.models.BillingAccountViewModel">
+      <point x="-113.0" y="-48.0" />
+      <point x="1298.0" y="1376.0" />
+      <point x="1345.25" y="1376.0" />
+      <point x="1345.25" y="1275.0" />
+      <point x="1507.6666666666667" y="1275.0" />
+      <point x="-151.33333333333326" y="136.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.service.impl.SubscriptionDataServiceImpl" target="by.maximus.nc.sd3.service.SubscriptionDataService">
+      <point x="-138.0" y="-70.5" />
+      <point x="990.405" y="771.0" />
+      <point x="593.235" y="771.0" />
+      <point x="103.5" y="59.0" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.service.SubscriptionDataService" target="by.maximus.nc.sd3.models.SubscriptionViewModel">
+      <point x="0.0" y="-59.0" />
+      <point x="489.735" y="492.0" />
+      <point x="765.3" y="492.0" />
+      <point x="-86.20000000000005" y="136.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.service.impl.UserAccountDataServiceImpl" target="by.maximus.nc.sd3.models.UserAccountViewModel">
+      <point x="128.0" y="-103.5" />
+      <point x="1012.0" y="1552.0" />
+      <point x="957.25" y="1552.0" />
+      <point x="957.25" y="1340.0" />
+      <point x="753.3333333333334" y="1340.0" />
+      <point x="147.33333333333337" y="169.0" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.controller.BillingAccountDataController" target="by.maximus.nc.sd3.service.BillingAccountDataService">
+      <point x="-137.0" y="-37.0" />
+      <point x="1794.0" y="1376.0" />
+      <point x="1772.0" y="1376.0" />
+      <point x="113.0" y="25.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.models.SubscriptionUnitViewModel" target="by.maximus.nc.sd3.models.SubscriptionViewModel">
+      <point x="-133.75" y="-114.5" />
+      <point x="850.485" y="492.0" />
+      <point x="851.5" y="492.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.models.SubscriptionViewModel" target="by.maximus.nc.sd3.models.Categories">
+      <point x="-1.1368683772161603E-13" y="-136.5" />
+      <point x="851.4999999999999" y="164.0" />
+      <point x="1032.4675" y="164.0" />
+      <point x="-27.0" y="69.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.service.impl.BillingAccountDataServiceImpl" target="by.maximus.nc.sd3.service.BillingAccountDataService">
+      <point x="113.0" y="-48.0" />
+      <point x="1524.0" y="1376.0" />
+      <point x="1546.0" y="1376.0" />
+      <point x="-113.0" y="25.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.service.impl.SubscriptionDataServiceImpl" target="by.maximus.nc.sd3.models.SubscriptionViewModel">
+      <point x="0.0" y="-70.5" />
+      <point x="1128.405" y="761.0" />
+      <point x="1262.2350000000001" y="761.0" />
+      <point x="1262.2350000000001" y="482.0" />
+      <point x="1023.9" y="482.0" />
+      <point x="172.39999999999998" y="136.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.service.impl.UserAccountDataServiceImpl" target="by.maximus.nc.sd3.service.UserAccountDataService">
+      <point x="-128.0" y="-103.5" />
+      <point x="756.0" y="1552.0" />
+      <point x="734.0" y="1552.0" />
+      <point x="128.0" y="81.0" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.service.impl.SubscriptionUnitDataServiceImpl" target="by.maximus.nc.sd3.service.SubscriptionUnitDataService">
+      <point x="0.0" y="-25.5" />
+      <point x="587.0" y="1883.0" />
+      <point x="695.5" y="1883.0" />
+      <point x="-49.5" y="14.5" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.service.UserAccountDataService" target="by.maximus.nc.sd3.models.UserAccountViewModel">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="169.0" />
+    </edge>
+    <edge source="by.maximus.nc.sd3.controller.SubscriptionDataController" target="by.maximus.nc.sd3.models.SubscriptionViewModel">
+      <point x="-127.5" y="-70.5" />
+      <point x="127.5" y="771.0" />
+      <point x="201.90499999999997" y="771.0" />
+      <point x="201.90499999999997" y="482.0" />
+      <point x="679.1" y="482.0" />
+      <point x="-172.39999999999998" y="136.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="531.9999999999991" y="905.6666666666662" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

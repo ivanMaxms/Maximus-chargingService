@@ -43,4 +43,16 @@ public class BillingAccountServiceImpl implements BillingAccountService {
         return this.repository.save(billingAccount);
     }
 
+    @Override
+    public BillingAccount addMoney(BillingAccount ba) {
+        Optional<BillingAccount> billingAccountOptional = this.repository.findByNameAndPasswordAndCreditCardNumber(ba.getName(),
+                ba.getPassword(), ba.getCreditCardNumber());
+        if(billingAccountOptional.isPresent()) {
+            BillingAccount billingAccount = billingAccountOptional.get();
+            billingAccount.setMoney(billingAccount.getMoney() + ba.getMoney());
+            this.repository.save(billingAccount);
+            return billingAccount;
+        }
+        return null;
+    }
 }

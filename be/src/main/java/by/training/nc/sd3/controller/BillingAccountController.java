@@ -35,4 +35,9 @@ public class BillingAccountController {
     public BillingAccount save(@RequestBody BillingAccount billingAccount) {
         return this.billingAccountService.save(billingAccount);
     }
+
+    @RequestMapping(value = "/add-money", method = RequestMethod.POST)
+    public BillingAccount addMoney(@RequestBody BillingAccount billingAccount) {
+        return this.billingAccountService.addMoney(billingAccount);
+    }
 }

@@ -10,4 +10,5 @@ public interface BillingAccountService {
     Iterable<BillingAccount> getAllByOwnerId(Long ownerId);
     Optional<BillingAccount> getById(Long id);
     BillingAccount save(BillingAccount billingAccount);
+    BillingAccount addMoney(BillingAccount billingAccount);
 }

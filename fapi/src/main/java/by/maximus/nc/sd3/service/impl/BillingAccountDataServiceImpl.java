@@ -30,4 +30,24 @@ public class BillingAccountDataServiceImpl implements BillingAccountDataService 
                 account, BillingAccountViewModel.class);
         return billingAccount;
     }
+
+    public List<BillingAccountViewModel> getAll() {
+        RestTemplate restTemplate = new RestTemplate();
+        BillingAccountViewModel[] billingAccounts = restTemplate.getForObject(backendServerUrl + "/api/billing-accounts",
+                BillingAccountViewModel[].class);
+        return billingAccounts == null ? Collections.emptyList() : Arrays.asList(billingAccounts);
+    }
+
+    public void deleteBillingAccountById(Long id, String password) {
+        RestTemplate restTemplate = new RestTemplate();
+        restTemplate.delete(backendServerUrl +
+                "/api/billing-accounts/delete/" + id + "?id=" + id + "&password=" + password);
+    }
+
+    public List<BillingAccountViewModel> getBillingAccountsByOwnerId(Long id) {
+        RestTemplate restTemplate = new RestTemplate();
+        BillingAccountViewModel[] billingAccounts = restTemplate.getForObject(backendServerUrl + "/api/billing-accounts/by-owner-id?ownerId={id}",
+                BillingAccountViewModel[].class, id);
+        return billingAccounts == null ? Collections.emptyList() : Arrays.asList(billingAccounts);
+    }
 }

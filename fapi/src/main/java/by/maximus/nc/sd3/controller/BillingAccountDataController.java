@@ -23,4 +23,25 @@ public class BillingAccountDataController {
         }
         return null;
     }
+
+    @RequestMapping(value = "/all", method = RequestMethod.GET)
+    public ResponseEntity<List<BillingAccountViewModel>> getAllBillingAccounts() {
+        return ResponseEntity.ok(billingAccountDataService.getAll());
+    }
+
+    @RequestMapping(value = "/get-by-id", method = RequestMethod.GET)
+    public ResponseEntity<BillingAccountViewModel> getBillingAccountById(@RequestParam Long id) {
+        return ResponseEntity.ok(billingAccountDataService.getBillingAccountById(id));
+    }
+
+    @RequestMapping(value = "/get-by-ownerid", method = RequestMethod.GET)
+    public ResponseEntity<List<BillingAccountViewModel>> getBillingAccountByOwnerId(@RequestParam Long id) {
+        return ResponseEntity.ok(billingAccountDataService.getBillingAccountsByOwnerId(id));
+    }
+
+    @RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
+    public void deleteBillingAccount(@PathVariable Long id, @RequestParam String password) {
+        billingAccountDataService.deleteBillingAccountById(id, password);
+    }
+
 }

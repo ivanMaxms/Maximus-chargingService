@@ -44,4 +44,11 @@ public class BillingAccountDataController {
         billingAccountDataService.deleteBillingAccountById(id, password);
     }
 
+    @RequestMapping(value = "/add-money", method = RequestMethod.POST)
+    public ResponseEntity<BillingAccountViewModel> addMoney(@RequestBody BillingAccountViewModel billingAccount) {
+        if (billingAccount != null) {
+            return ResponseEntity.ok(billingAccountDataService.addMoney(billingAccount));
+        }
+        return null;
+    }
 }

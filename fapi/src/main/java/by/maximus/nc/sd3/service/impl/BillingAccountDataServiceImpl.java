@@ -50,4 +50,12 @@ public class BillingAccountDataServiceImpl implements BillingAccountDataService 
                 BillingAccountViewModel[].class, id);
         return billingAccounts == null ? Collections.emptyList() : Arrays.asList(billingAccounts);
     }
+
+    @Override
+    public BillingAccountViewModel addMoney(BillingAccountViewModel billingAccountViewModel) {
+        RestTemplate restTemplate = new RestTemplate();
+        BillingAccountViewModel billingAccount = restTemplate.postForObject(backendServerUrl + "/api/billing-accounts/add-money",
+                billingAccountViewModel, BillingAccountViewModel.class);
+        return  billingAccount;
+    }
 }

@@ -10,4 +10,5 @@ public interface BillingAccountDataService {
     BillingAccountViewModel getBillingAccountById(Long id);
     void deleteBillingAccountById(Long id, String password);
     List<BillingAccountViewModel> getBillingAccountsByOwnerId(Long id);
+    BillingAccountViewModel addMoney(BillingAccountViewModel billingAccountViewModel);
 }

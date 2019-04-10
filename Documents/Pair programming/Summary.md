@@ -1,5 +1,5 @@
 ## Андреев
-### [Напарник Пшеничный]
+### [Напарник Пшеничный](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/Andreev-Pshenichniy.md)
 
 ## Пшеничный
 ## 

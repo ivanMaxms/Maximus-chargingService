@@ -11,7 +11,9 @@
 ### [Напарник Андреев](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/Khilmonchyk-Andreev.md)
 
 ## Евстрат
-## 
+### [Напарник Боданин](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/evstrat-bodanin.md)
+### [Напарник Хильмончик](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/evstrat-khilmonchik.md)
+### [Напарник Андреев](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/evstrat-andreev.md)
 
 ## Боданин
 ### [Напарник Хильмончик](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/Bodanin-Khilmonchik.md)

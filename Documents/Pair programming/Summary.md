@@ -6,7 +6,9 @@
 ## 
 
 ## Хильмончик
-## 
+### [Напарник Боданин](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/Khilmonchyk-Bodanin.md)
+### [Напарник Евстрат](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/Khilmonchyk-Evstrat.md)
+### [Напарник Андреев](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/Khilmonchyk-Andreev.md)
 
 ## Евстрат
 ## 

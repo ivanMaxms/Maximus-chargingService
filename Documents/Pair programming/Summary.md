@@ -13,4 +13,6 @@
 
 ## Боданин
 ### [Напарник Хильмончик](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/Bodanin-Khilmonchik.md)
-### [Напарник Пшеничный](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/Bodanin%20-%20Pshenichiy.md) 
+### [Напарник Пшеничный](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/Bodanin%20-%20Pshenichiy.md)
+### [Напарник Евстрат](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Pair%20programming/Bodanin-Evstrat.md)
+

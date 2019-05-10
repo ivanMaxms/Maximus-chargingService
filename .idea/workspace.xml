@@ -3,9 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="84fdac13-e204-4138-a398-a868cdb20049" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fapi/src/main/java/by/maximus/nc/sd3/controller/BillingAccountDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fapi/src/main/java/by/maximus/nc/sd3/controller/BillingAccountDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fapi/src/main/java/by/maximus/nc/sd3/service/BillingAccountDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fapi/src/main/java/by/maximus/nc/sd3/service/BillingAccountDataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fapi/src/main/java/by/maximus/nc/sd3/service/impl/BillingAccountDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fapi/src/main/java/by/maximus/nc/sd3/service/impl/BillingAccountDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/BackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/BackendApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/controller/BillingAccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/controller/BillingAccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/controller/SubscriptionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/controller/SubscriptionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/controller/SubscriptionUnitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/controller/SubscriptionUnitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/controller/UserAccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/controller/UserAccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/entity/BillingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/entity/BillingAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/entity/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/entity/Categories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/entity/Subscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/entity/Subscription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/entity/SubscriptionUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/entity/SubscriptionUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/entity/UserAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/entity/UserAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/repository/BillingAccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/repository/BillingAccountRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/repository/SubscriptionUnitRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/repository/SubscriptionUnitRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/repository/UserAccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/repository/UserAccountRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/BillingAccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/BillingAccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/SubscriptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/SubscriptionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/SubscriptionUnitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/SubscriptionUnitService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/UserAccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/UserAccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/impl/BillingAccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/impl/BillingAccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/impl/SubscriptionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/impl/SubscriptionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/impl/SubscriptionUnitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/impl/SubscriptionUnitServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/impl/UserAccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/classes/by/training/nc/sd3/service/impl/UserAccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/target/test-classes/by/training/nc/sd3/BackendApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/be/target/test-classes/by/training/nc/sd3/BackendApplicationTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/fapi/target/" />
@@ -39,17 +58,17 @@
     <session id="-2044330381">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
           <entry key="java" value="57" />
-          <entry key="properties" value="2" />
+          <entry key="properties" value="3" />
           <entry key="sql" value="1" />
           <entry key="ts" value="13" />
           <entry key="xml" value="3" />
@@ -59,7 +78,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="57" />
-          <entry key="Properties" value="2" />
+          <entry key="Properties" value="3" />
           <entry key="Scratch" value="1" />
           <entry key="TypeScript" value="13" />
           <entry key="XML" value="3" />
@@ -142,7 +161,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/be/src/main/resourses/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -198,7 +227,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/billingApp/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1058" />
@@ -211,8 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,6 +308,13 @@
             </path>
             <path>
               <item name="SD-3_HilmonchikDmitry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="be" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resourses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SD-3_HilmonchikDmitry" type="b2602c69:ProjectViewProjectNode" />
               <item name="fapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,42 +334,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SD-3_HilmonchikDmitry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sd3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SD-3_HilmonchikDmitry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sd3" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SD-3_HilmonchikDmitry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sd3" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SD-3_HilmonchikDmitry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sd3" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SD-3_HilmonchikDmitry" type="b2602c69:ProjectViewProjectNode" />
@@ -343,6 +346,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,16 +446,20 @@
       <workItem from="1553856230302" duration="328000" />
       <workItem from="1554408563781" duration="558000" />
       <workItem from="1554415654225" duration="1276000" />
+      <workItem from="1555056895394" duration="160000" />
+      <workItem from="1555066545318" duration="20000" />
+      <workItem from="1555066586254" duration="606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8076000" />
+    <option name="totallyTimeSpent" value="8862000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="976" height="1058" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44104803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -467,7 +476,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.3290461" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33297297" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3301179" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3290461" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -481,7 +490,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.066593885" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.18123667" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -553,13 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/be/src/main/resourses/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -658,9 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,9 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,12 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-179">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#2190#2191#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,12 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#4893#4894#0" expanded="true" />
-            <element signature="e#4960#4961#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,9 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,9 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,9 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,9 +779,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/be/src/main/resourses/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>

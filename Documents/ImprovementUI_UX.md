@@ -33,7 +33,7 @@
 
 ### Пути улучшения UI/UX
 - Улучшение UX - [ERT-18];
-- Скриншоты улучшений ([ссылка](https://github.com/steppbol/e-Ground/blob/master/Documentation/Improvements/Readme.md))
+- Скриншоты улучшений ([ссылка](https://github.com/vanosss/Maximus-chargingService/blob/master/Documents/Sceenshots/Readme.md))
 
 
 
